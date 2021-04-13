@@ -18,8 +18,7 @@ Step4. Set the platform target to x64
                 3. Add Linker input: opencv_world450d.lib
                    d for debug without d for release
 
-In this project what I try to do is detecting face in live camera.
-To detect face here I use voila jones method of haar cascadeds, here I used already trained model xml file named frontalface_default.xml
+In this project what I try to do is detecting faces on a live camera. To detect face here I use voila jones method of haar cascades, here I used already trained model XML file named frontalface_default.xml
 
 Here in the project <opencv2/objdetect.hpp> header file which allow to with haar cascading
 1. Capturing martrix of images using camera 
